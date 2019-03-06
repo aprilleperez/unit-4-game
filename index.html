@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Crystal Gems!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- jQ Library -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron cstmJumbo">
+            <div class="row">
+                <div class="col-md-10">
+                    <h1 class="display-4">Sync Up the Crystal Gems!</h1>
+                </div>
+
+                <div class="col-md-2">
+                    <div id="musicControls" class="text-center">
+                        <button class="btn btn-light btn-xs theme-button cstmBtn">
+                            <span class="fa fa-play"></span></button>
+                        <button class="btn btn-light btn-xs pause-button cstmBtn">
+                            <span class="fa fa-pause"></span></button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <h1 class="display-4">Sync Up the Crystal Gems!
+                <div id="musicControls" class="text-center">
+                    <button class="btn btn-light btn-xs theme-button">
+                        <span class="fa fa-play"></span></button>
+                    <button class="btn btn-light btn-xs pause-button">
+                        <span class="fa fa-pause"></span></button>
+                </div>
+            </h1> -->
+            <br>
+
+            <p class="lead">The Crystal Gems need to prepare for battle! Each of them hold a certain number needed for
+                their preparation. Add them all up to match the Battle Number so they can head off to victory! But be
+                careful, going over the Battle Number means they got too tired to fight.</p>
+            <hr class="my-4">
+            <div class="row numTracker">
+                <div class="col-md-4">
+                    <h4>Battle Number: <span id="domBattleNumber"></span></h4>
+                </div>
+
+                <div class="col-md-4">
+                    <h4>Gems' number: <span id="domUserNumber">- -</span></h4>
+                </div>
+
+                <div class="col-md-2">
+                    <h4>Wins: <span id="domWins">- -</span></h4>
+                </div>
+
+                <div class="col-md-2">
+                    <h4>Loses: <span id="domLoses">- -</span></h4>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-md-3 imgBox" id="steven">
+                    <img src="assets/images/steven.png">
+                </div>
+
+                <div class="col-md-3 imgBox" id="garnet">
+                    <img src="assets/images/garnet.png">
+                </div>
+
+                <div class="col-md-3 imgBox" id="pearl">
+                    <img src="assets/images/pearl.png">
+                </div>
+
+                <div class="col-md-3 imgBox" id="amethyst">
+                    <img src="assets/images/amethyst.png">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- External JS Link -->
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
